@@ -1,4 +1,4 @@
-FROM datadog/docker-dd-agent:10.0.550
+FROM datadog/docker-dd-agent:11.0.574
 
 ADD conf.d/docker_daemon.yaml /etc/dd-agent/conf.d/docker_daemon.yaml
 
